@@ -1,0 +1,20 @@
+﻿<Window x:Class="Lenght.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lenght"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="182" Width="314">
+    <Grid Background="black" Margin="0,0,0,-6">
+        <TextBox x:Name="TextBox1" HorizontalAlignment="Left" Margin="168,32,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="45"/>
+        <Label Margin="62,50,674,352">
+            <Label Content="Label" Foreground="White" Height="37" Width="71"/>
+        </Label>
+        <Label Content="Insert your text here==&gt;" HorizontalAlignment="Left" Margin="24,32,0,0" VerticalAlignment="Top" Foreground="White" Width="139" Height="34"/>
+        <Button Content="Lenght &#xD;&#xA;without spaces" HorizontalAlignment="Left" Margin="24,106,0,0" VerticalAlignment="Top" Width="108" Height="39" Click="Button_Click_1"/>
+        <Button Content="Lenght &#xA;with spaces" HorizontalAlignment="Left" Margin="168,106,0,0" VerticalAlignment="Top" Width="108" Height="39" Click="Button_Click"/>
+        <Label x:Name="Label1" Content="Lenght of your string:" HorizontalAlignment="Left" Margin="0,66,0,0" VerticalAlignment="Top" Foreground="White" Width="168" Height="34"/>
+
+    </Grid>
+</Window>
